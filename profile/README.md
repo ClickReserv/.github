@@ -4,7 +4,7 @@
 
 **AI-powered booking. 56 business templates. One integration.**
 
-Multi-tenant booking SaaS with payments, POS, jukebox, CRM, and graph-based service recommendations.
+Multi-tenant booking with payments, POS, jukebox, CRM, and graph-based service recommendations.
 
 [**🌐 reserv.click**](https://reserv.click)&nbsp;&nbsp;·&nbsp;&nbsp;[**🏠 GitHat platform**](https://githat.io)
 
@@ -14,24 +14,24 @@ Multi-tenant booking SaaS with payments, POS, jukebox, CRM, and graph-based serv
 
 ## What ClickReserv is
 
-A booking platform that ships with **56 business templates** — barbershops, salons, restaurants, gyms, clinics, dog groomers, photographers, escape rooms, and 48 more — each with the right calendar shape, deposit rules, service-recommendation graph, and POS catalog wired in on day one.
+A booking platform that ships with **56 business templates** — barbershops, salons, restaurants, gyms, clinics, dog groomers, photographers, escape rooms, and more — each with the right calendar shape, deposit rules, service-recommendation graph, and POS catalog wired in on day one.
 
 - **Bookings** with deposits, recurring series, waitlists, no-show fees
-- **Payments** via [Sebastn](https://github.com/SebasTN-Rhys) Stripe Connect Express
+- **Payments** via the fleet's [payments rail](https://github.com/SebasTN-Rhys)
 - **POS** for products + drinks alongside services
-- **Jukebox** Spotify-powered customer music requests (tier-gated)
+- **Jukebox** customer music requests (tier-gated)
 - **CRM** with customer profiles, history, preferences
-- **AI chat** with MCP tool integration for ops + bookings
-- **Multi-language** (10 locales, AWS Translate auto-fallback)
+- **AI chat** with agent tooling for ops + bookings
+- **Multi-language** with managed translation fallback
 - **Auth** by [GitHat](https://github.com/GitHat-IO)
 
 ## Security
 
-- ✅ Verified domain (`reserv.click`, `www.reserv.click`)
-- ✅ AWS-native: Route 53 → CloudFront (ACM cert) → EC2 (Caddy → Node)
-- ✅ Stripe Connect Express via Sebastn (PCI scope minimized)
-- ✅ Slot-reservation atomicity (ADR-001), feature gates (ADR-002)
-- ✅ CAA records, signed commits, secret scanning
+- ✅ Verified domains (`reserv.click`, `www.reserv.click`)
+- ✅ Cloud-native edge — managed certs, single-CA lockdown
+- ✅ Payments via a sibling-subsidiary platform (PCI scope minimized)
+- ✅ Slot-reservation atomicity, feature gates
+- ✅ Signed commits, secret scanning
 
 ## Contact
 
