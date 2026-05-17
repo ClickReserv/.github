@@ -2,9 +2,7 @@
 
 # ClickReserv
 
-**AI-powered booking. <!-- IDENTITY:templates_count -->
-56
-<!-- /IDENTITY:templates_count --> business templates. One integration.**
+**AI-powered booking. <!-- IDENTITY:templates_count -->56<!-- /IDENTITY:templates_count --> business templates. One integration.**
 
 Multi-tenant booking with payments, POS, jukebox, CRM, and graph-based service recommendations.
 
@@ -16,9 +14,7 @@ Multi-tenant booking with payments, POS, jukebox, CRM, and graph-based service r
 
 ## What ClickReserv is
 
-A booking platform that ships with **<!-- IDENTITY:templates_count -->
-56
-<!-- /IDENTITY:templates_count --> business templates** — barbershops, salons, restaurants, gyms, clinics, dog groomers, photographers, escape rooms, and more — each with the right calendar shape, deposit rules, service-recommendation graph, and POS catalog wired in on day one.
+A booking platform that ships with **<!-- IDENTITY:templates_count -->56<!-- /IDENTITY:templates_count --> business templates** — barbershops, salons, restaurants, gyms, clinics, dog groomers, photographers, escape rooms, and more — each with the right calendar shape, deposit rules, service-recommendation graph, and POS catalog wired in on day one.
 
 - **Bookings** with deposits, recurring series, waitlists, no-show fees
 - **Payments** via the fleet's [payments rail](https://github.com/SebasTN-Rhys)
